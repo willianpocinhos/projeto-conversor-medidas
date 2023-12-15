@@ -75,11 +75,6 @@ main {
     /* transition: 0s; */
 }
 
-/* #change-img:active{
-    rotate: 180deg;
-    transition: 0.3s;
-} */
-
 #value-left,
 #value-right {
     margin-bottom: 5px;
