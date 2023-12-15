@@ -2,4 +2,4 @@
 Desenvolvido com HTML, CSS e JavaScript
 <br>
 <br>
-<img src='' alt='conversor-medidas-mockup'>
+<img src='https://github.com/willianpocinhos/projeto-conversor-medidas/blob/master/assets/conversor-medidas-mockup.png?raw=true' alt='conversor-medidas-mockup'>
