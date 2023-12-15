@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: url(./assets/new-measure-bg.png) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 900;
+    text-align: center;
+    font-size: 3em;
+    color: #333126;
+}
+
+#text{
+    text-align: center;
+    color: red;
+    font-size: 0.8em;
+    margin-top: 15px;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: 20px auto 0;
+    padding: 20px 20px 10px;
+}
+
+#conversor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left,
+.right {
+    /* border: 1px solid red; */
+    width: 100%;
+}
+
+#center {
+    margin: 0 20px;
+    width: 100px;
+    /* border: 1px solid red; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#change-img{
+    position: absolute;
+    width: 40px;
+    transition: 0.2s;
+}
+
+#change-img:hover{
+    width: 45px;
+    cursor: pointer;
+    /* transition: 0s; */
+}
+
+/* #change-img:active{
+    rotate: 180deg;
+    transition: 0.3s;
+} */
+
+#value-left,
+#value-right {
+    margin-bottom: 5px;
+}
+
+#value-right{
+    background: rgba(153, 144, 92);
+    color: white;
+}
+
+input,
+select {
+    display: block;
+    border: none;
+    width: 100%;
+    height: 50px;
+    background: rgba(153, 144, 92, 0.5) no-repeat 95%;
+    font-weight: 500;
+    text-align: center;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    appearance: none;
+}
+
+input {
+    border-radius: 10px 10px 0 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+select {
+    border-radius: 0 0 10px 10px;
+    font-size: 1.2em;
+    appearance: none;
+    background-image: url(./assets/seta.png);
+    background-size: 15px;
+    cursor: pointer;
+}
+
+
+
+
+@media screen and (max-width: 600px){
+    #conversor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        margin: 20px auto 0;
+        padding: 20px 20px 10px;
+    }
+
+    #center {
+        margin: 15px 0;
+        height: 40px;
+    }
+
+    h1{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    color: #333126;
+}
+
+footer a{
+    color: red;
+}

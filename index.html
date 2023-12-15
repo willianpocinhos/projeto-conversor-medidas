@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Medidas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Conversor de Medidas</h1>
+        <main>
+            <div id="conversor">
+                <div class="left">
+                    <input id="value-left" type="text" value="1">
+                    <select id="option-left">
+                        <option value="metro">Metros (m)</option>
+                        <option value="milimetro">Milímetros (mm)</option>
+                        <option value="centimetro">Centímetros (cm)</option>
+                        <option value="quilometro">Quilômetros (km)</option>
+                        <option value="polegada">Polegadas (pol)</option>
+                        <option value="milha">Milhas (mi)</option>
+                        <option value="pe">Pés (ft)</option>
+                        <option value="jarda">Jardas (yd)</option>
+                    </select>
+                </div>
+                <div id="center">
+                    <img id="change-img" src="./assets/troca.png" alt="change-img">
+                </div>
+                <div class="right">
+                    <input id="value-right" type="text" value="100" disabled>
+                    <select id="option-right">
+                        <option value="centimetro">Centímetros (cm)</option>
+                        <option value="milimetro">Milímetros (mm)</option>
+                        <option value="metro">Metros (m)</option>
+                        <option value="quilometro">Quilômetros (km)</option>
+                        <option value="polegada">Polegadas (pol)</option>
+                        <option value="milha">Milhas (mi)</option>
+                        <option value="pe">Pés (ft)</option>
+                        <option value="jarda">Jardas (yd)</option>
+                    </select>
+                </div>
+            </div>
+            <p id="text"><i class="fa-solid fa-triangle-exclamation"></i> Utilize o ponto (.) como divisor decimal.</p>
+        </main>
+        <footer>
+            <p>Desenvolvido por <a href="https://www.linkedin.com/in/willian-p-santos/" target="_blank">Willian P Santos</a></p>
+        </footer>
+    </div>
+</body>
+<script src="/script.js"></script>
+<script src="https://kit.fontawesome.com/d2b741dfe0.js" crossorigin="anonymous"></script>
+
+</html>
