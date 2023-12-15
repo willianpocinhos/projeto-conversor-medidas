@@ -1,11 +1,15 @@
 # PROJETO CONVERSOR DE MEDIDAS
 Nesse conversor, você digita um valor desejado e escolhe as unidades de medidas desejadas.
 <br>
+<br>
 A cada nova unidade de medida selecionada o conversor já faz o cálculo automaticamente, tendo como base o valor previamente digitado.
+<br>
 <br>
 Também implementei uma função nas setinhas do centro, que faz com que as medidas selecionadas sejam invertidas e o cálculo é refeito com base nas medidas que agora foram trocadas.
 <br>
+<br>
 Esse projeto é responsivo para mobile, tablet e desktop.
+<br>
 <br>
 Tecnologias utilizadas: HTML, CSS e JavaScript
 <br>
